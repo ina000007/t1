@@ -1,0 +1,3 @@
+<ul *ngFor="let note of notes">
+	<app-note-item [note]="note" (noteDone)="done($event)"></app-note-item>
+</ul>
